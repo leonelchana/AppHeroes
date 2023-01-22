@@ -18,7 +18,7 @@ export class ListadoComponent implements OnInit{
     this.heroesService.getHeroes()
     .subscribe(resp=>{
       this.heroes=resp;
-      console.log(resp);
+    /*   console.log(resp); */
       }
     );
    
